@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	}
+	body{
+		background:rgb(254,220,1);
+		width:100%;
+		height:100%;
+		}
+#header{
+	background-image:url(header.jpg);	
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	height:355px;
+	width: 100%;
+
+	}
+#bodyer{
+	height:auto;
+	overflow:hidden;
+	}
+
+.timu{
+	font-size:48px;
+	color:#FFF;
+	text-align:center;
+	height:255px;
+	background:rgba(125,125,125,0.7);
+	padding-top:100px;
+	}
+.tupian01 img{
+	border:#3C9 solid 10px;
+	float:left;
+	height:415px;
+	width:350px;
+	margin-top:10%;
+	margin-left:20%;
+	}
+.tupian01 img:hover{
+   transform: scale(1.2);
+}
+.wenzi01{
+	border:#3C9 solid 10px;
+	float:right;
+	height:415px;
+	width:350px;
+	font-size:20px;
+	margin-top:10%;
+	margin-right:20%;
+	}
+.wenzi01:hover{
+  transform: scale(1.2);
+}
+.tupian02 img{
+	border:#3C9 solid 10px;
+	float:right;
+	height:415px;
+	width:350px;
+	margin-top:10%;
+	margin-right:20%;
+	margin-bottom:10%;
+	}
+.tupian02 img:hover{
+  transform: scale(1.2);
+}
+.wenzi02{
+	border:#3C9 solid 10px;
+	float:left;
+	font-size:20px;
+	height:415px;
+	width:350px;
+	margin-top:10%;
+	margin-left:20%;
+	}
+.wenzi02:hover{
+  transform: scale(1.2);
+}
+#footer{
+	background-image:url(header.jpg);	
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	height:200px;
+	position:relative;
+	}
+.jiewei{
+	font-size:72px;
+	color:#FFF;
+	text-align:center;
+	height:150px;
+	width:100%;
+	background:rgba(125,125,125,0.7);
+	padding-top:50px;
+	position:absolute;
+	}
+.fanhui{
+	font-size:24px;
+	position:absolute;
+	right:0;
+	bottom:0;	
+	
+}
